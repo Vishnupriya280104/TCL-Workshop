@@ -5,7 +5,8 @@ The workshop equips participants with advanced TCL scripting skills for automati
 <details>
     <summary>
       
-## Module-1: Introduction to TCL and VSDSYNTH Toolbox usage    
+## Module-1: Introduction to TCL and VSDSYNTH Toolbox usage
+
     </summary>
     
    This module deals with TCL task and sub-task fundamentals, VSDSYNTH Toolbox scenarios and help flow,and handling user input and CSV formats. 
