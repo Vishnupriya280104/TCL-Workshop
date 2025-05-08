@@ -52,10 +52,15 @@ The workshop equips participants with advanced TCL scripting skills for automati
 </details>
 
 <details>
-  <summary>Module-2: Variable creation and CSV/SDC constraint processing</summary>
+  
+  <summary> 
+    
+##  Module-2: Variable creation and CSV/SDC constraint processing
+  </summary>
+ 
   This module includes creating variables using matrix and array methods, checking for design file existence, and complex CSV row/column processing. 
 
-  **Convert all inputs to format[1] and sdc format, and pass to synthesis tool 'Yosys'**
+  **Convert all inputs to format[1] and sdc format, and pass to synthesis tool 'Yosys'**  
   Tasks involved:
   + Create variable
   + Check if directories and files mentioned in .csv exists or not
