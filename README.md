@@ -3,8 +3,9 @@ From Introduction to Advanced Scripting Techniques in VLSI Design and Synthesis
 The workshop equips participants with advanced TCL scripting skills for automating digital design flows. The journey begins with TCL fundamentals and extends into complex topics such as constraints parsing, memory module synthesis with Yosys, and quality of results (QOR) analysis.
 
 <details>
+  
   ## Module-1: Introduction to TCL and VSDSYNTH Toolbox usage 
-  <summary> This module deals with TCL task and sub-task fundamentals, VSDSYNTH Toolbox scenarios and help flow,and handling user input and CSV formats. </summary>
+  <summary> This module deals with TCL task and sub-task fundamentals, VSDSYNTH Toolbox scenarios and help flow,and handling user input and CSV formats. </summary>  
   In VLSI (Very Large Scale Integration), TCL stands for Tool Command Language. It's a popular scripting language used to automate and control various tasks within the design flow of integrated circuits.
 
   ### Sub-Task and Tools needed: ###
@@ -12,6 +13,7 @@ The workshop equips participants with advanced TCL scripting skills for automati
   + Convert all inputs to format[1] and sdc format, and pass to synthesis tool 'Yosys'
   + Convert format[1] and sdc to format[2] and pass to timing tool 'Opentimer'
   + Generate output report
+    
   **Create command (vsdsynth) and pass (.csv) from UNIX shell to TCL script**
     General Scenarios - From user point of view
     + Not provide .csv file as input
@@ -31,8 +33,7 @@ The workshop equips participants with advanced TCL scripting skills for automati
           #echo "Error: Cannot find csv file $argv[1]. Exiting..."
           #exit
 ```
-
-    + Type "-help" to find out usage
+  + Type "-help" to find out usage
 
 ```bash
     $./vsdsynth -help
