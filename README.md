@@ -5,9 +5,8 @@ The workshop equips participants with advanced TCL scripting skills for automati
 <details>
     <summary>
       
-  ## Module-1: Introduction to TCL and VSDSYNTH Toolbox usage 
+## Module-1: Introduction to TCL and VSDSYNTH Toolbox usage 
    This module deals with TCL task and sub-task fundamentals, VSDSYNTH Toolbox scenarios and help flow,and handling user input and CSV formats. 
-
     </summary>
   In VLSI (Very Large Scale Integration), TCL stands for Tool Command Language. It's a popular scripting language used to automate and control various tasks within the design flow of integrated circuits.
 
