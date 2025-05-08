@@ -3,9 +3,12 @@ From Introduction to Advanced Scripting Techniques in VLSI Design and Synthesis
 The workshop equips participants with advanced TCL scripting skills for automating digital design flows. The journey begins with TCL fundamentals and extends into complex topics such as constraints parsing, memory module synthesis with Yosys, and quality of results (QOR) analysis.
 
 <details>
-  
+    <summary>
+      
   ## Module-1: Introduction to TCL and VSDSYNTH Toolbox usage 
-  <summary> This module deals with TCL task and sub-task fundamentals, VSDSYNTH Toolbox scenarios and help flow,and handling user input and CSV formats. </summary>  
+   This module deals with TCL task and sub-task fundamentals, VSDSYNTH Toolbox scenarios and help flow,and handling user input and CSV formats. 
+
+      </summary>
   In VLSI (Very Large Scale Integration), TCL stands for Tool Command Language. It's a popular scripting language used to automate and control various tasks within the design flow of integrated circuits.
 
   ### Sub-Task and Tools needed: ###
