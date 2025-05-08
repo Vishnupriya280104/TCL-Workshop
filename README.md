@@ -70,6 +70,19 @@ The workshop equips participants with advanced TCL scripting skills for automati
   Commands used are:
 
 ```bash
+    set filename [lindex $argv 0]           ;# Get the filename from the first command-line argument
+    pakage require csv                      ;# (Typo) Should be 'package'; load the csv package
+    package require struct::matrix          ;# Load the struct::matrix package for matrix operations
+    struct :: matrix m                      ;# Create a new matrix named 'm'
+    set f [open $filename]                  ;# Open the input CSV file for reading
+    csv::read2matrix $f m, auto             ;# Read CSV content into matrix 'm' with auto-detected format
+    close $f                                ;# Close the file after reading
+    set columns [m columns]                 ;# Get the number of columns in the matrix
+    m add columns $columns                  ;# Add the same number of columns again (likely unnecessary or incorrect)
+    m link my_arr                           ;# Link the matrix 'm' to an array variable 'my_arr'
+    set num_of_rows [m rows]                ;# Get the number of rows in the matrix
+    set i 0                                 ;# Initialize index variable i to 0
+```
     
     
     
